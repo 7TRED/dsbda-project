@@ -21,7 +21,7 @@ Some hardware requirements should also be fulfilled to run this project smoothly
 First download the project as zip archive and extract it to your desired location or just clone the repository using,
 
 ```
-$ git clone https://github.com/pranitbose/sentiment-analysis.git
+$ git clone https://github.com/7TRED/dsbda-project.git
 ```
 
 Donwload the dataset using the link provided in the _dataset_link.txt_ within the _datasets_ directory. Move the the downloaded dataset or whichever dataset you want to use into the _datasets_ directory. In case you are using your own dataset, you have to modify the filenames in the source code of _main.py_ to the one you'll be using. Many lines of the source code are commented on purpose and the state of the project is pickled wherever necessary to save computing resource and speed up the execution process eliminating repeatition of same steps more than once. A boolean variable named _do\_pickle_ is provided in _main.py_ to switch pickling on/off in the entire file by changing it's value in only one place in \__main__.
